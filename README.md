@@ -1,4 +1,4 @@
-# bancadia-com
+# Bancadia
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-bancadia-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://bancadia.com/
+Bancadia provides a data‑layer API that AI agents use to recommend U.S. business banking products. It offers a verified, real‑time registry of business checking accounts, exposing fees, rates, eligibility, and features through a single Model Context Protocol (MCP) call. The service is free for developers, supports fifteen optional filters, and includes product listings, comparison matrices, and explainer articles. Bancadia aims to simplify bank‑account selection for agents, fintechs, and advisors while earning affiliate commissions on funded accounts.
+
+**Areas:** FinTech · Banking · AI · DataLayer · API
+
+## Bancadia on APIs.io
+
+Everything profiled for Bancadia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bancadia-com/](https://apis.io/providers/bancadia-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Bancadia API](https://apis.io/apis/bancadia-com/bancadia-com-api/) — Bancadia API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-11-02); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PostRequest](https://apis.io/schemas/bancadia-com/bancadia-com-post-request/)
+- [PostResponse](https://apis.io/schemas/bancadia-com/bancadia-com-post-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bancadia Com Context](https://apis.io/jsonld/bancadia-com/bancadia-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Bancadia Com Openapi Generated Overlay](https://apis.io/overlays/bancadia-com/bancadia-com-openapi-generated-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Bancadia API Rules](https://apis.io/rules/bancadia-com/bancadia-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bancadia Com Authentication](https://apis.io/security/bancadia-com/bancadia-com-authentication/)
+- [Bancadia Com Domain Security](https://apis.io/security/bancadia-com/bancadia-com-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bancadia Com Rate Limits](https://apis.io/rate-limits/bancadia-com/bancadia-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bancadia.com/)
+- [Documentation](https://bancadia.com/docs)
+- [Getting started](https://bancadia.com/docs/quickstart)
+- [API reference](https://bancadia.com/docs)
+- [Sign up](https://bancadia.com/developer/signup)
+
+## API Evangelist rating
+
+**Kin Score 41.8** — developing · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 47.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 13.2 |
+
+**Agent readiness 29.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 12.6** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bancadia-com/](https://apis.io/providers/bancadia-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bancadia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bancadia-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
